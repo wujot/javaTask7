@@ -1,39 +1,39 @@
 public class Triangle {
-    private int sideA;
-    private int sideB;
-    private int sideC;
+    private double sideA;
+    private double sideB;
+    private double sideC;
 
     Triangle() {
 
     }
 
-    Triangle(int sideA, int sideB, int sideC) {
+    Triangle(double sideA, double sideB, double sideC) {
         this.sideA = sideA;
         this.sideB = sideB;
         this.sideC = sideC;
     }
 
-    public int getSideA() {
+    public double getSideA() {
         return sideA;
     }
 
-    public int getSideB() {
+    public double getSideB() {
         return sideB;
     }
 
-    public int getSideC() {
+    public double getSideC() {
         return sideC;
     }
 
-    public void setSideA(int sideA) {
+    public void setSideA(double sideA) {
         this.sideA = sideA;
     }
 
-    public void setSideB(int sideB) {
+    public void setSideB(double sideB) {
         this.sideB = sideB;
     }
 
-    public void setSideC(int sideC) {
+    public void setSideC(double sideC) {
         this.sideC = sideC;
     }
 }
